@@ -6,3 +6,11 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: hsl(30, 54%, 90%);
+}
