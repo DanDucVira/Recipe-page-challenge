@@ -1,3 +1,5 @@
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -15,7 +17,18 @@
 
 
 }
-
+.bold{
+    color:hsl(30, 10%, 34%);
+    font-weight:600;
+}
+ .outfit{
+    font-family: "Outfit", serif;
+    /*3,4,4 bold*/
+ }
+ .young{
+    font-family: "Young Serif", serif;
+    /*1 et 2*/
+ }
 body {
     background: hsl(30, 54%, 90%);
     display: flex;
@@ -25,10 +38,23 @@ body {
     flex-direction: column;
     padding: 1.5rem;
     font-size: 16px;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
 }
-
+ul{
+    padding-left: 1rem;
+    list-style-type: square;
+}
+ul li{
+    padding: 0.5rem 0 0 0.8rem;
+    
+}
 h2{
     color: hsl(14, 45%, 36%);
+    padding-bottom: 1.5rem;
+    font-size: 28px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
 }
 .prep-text, .ingredient-text,.instr-text, .nutri-text{
     padding: 2rem 0;
@@ -55,6 +81,8 @@ img {
 }
 .heading h1{
     padding-bottom: 1.5rem;
+    font-family: "Young Serif", serif;
+    font-size: 40px;
 }
 .prep-text{
     padding: 1rem;
