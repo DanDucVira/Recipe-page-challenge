@@ -24,12 +24,13 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 1.5rem;
+    font-size: 16px;
 }
 
 h2{
     color: hsl(14, 45%, 36%);
 }
-.pre-text, .ingredient-text,.instr-text, .nutri-text{
+.prep-text, .ingredient-text,.instr-text, .nutri-text{
     padding: 2rem 0;
 }
 .ingredient-text ,.instr-text{
@@ -50,4 +51,16 @@ img {
 }
 .heading{
     padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+.heading h1{
+    padding-bottom: 1.5rem;
+}
+.prep-text{
+    padding: 1rem;
+}
+.prep-text h3{
+    color:hsl(332, 51%, 32%);
+    padding-bottom: 1rem;
+
 }
