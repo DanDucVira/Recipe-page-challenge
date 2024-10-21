@@ -43,11 +43,17 @@ body {
 }
 ul{
     padding-left: 1rem;
-    list-style-type: square;
+
 }
 ul li{
     padding: 0.5rem 0 0 0.8rem;
     
+}
+
+ol li{
+    padding: 0.5rem 0 0 0.8rem;
+    color: hsl(14, 45%, 36%);
+   
 }
 h2{
     color: hsl(14, 45%, 36%);
