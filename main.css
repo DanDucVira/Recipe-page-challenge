@@ -21,14 +21,7 @@
     color:hsl(30, 10%, 34%);
     font-weight:600;
 }
- .outfit{
-    font-family: "Outfit", serif;
-    /*3,4,4 bold*/
- }
- .young{
-    font-family: "Young Serif", serif;
-    /*1 et 2*/
- }
+
 body {
     background: hsl(30, 54%, 90%);
     display: flex;
@@ -77,6 +70,7 @@ h2{
     height: 100%;
     padding: 2.5rem;
     border-radius: 24px;
+    margin: 0 auto;
 }
 
 img {
@@ -125,4 +119,8 @@ img {
 }
 tr:last-child td {
     border-bottom: none;
+  }
+
+  footer{
+    padding-top:1rem;
   }
