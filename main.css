@@ -17,6 +17,21 @@
 
 
 }
+
+@media (max-width: 616px) {
+    .card-container {
+      width: 85%; 
+      margin: 0 auto;
+   
+   
+    }
+    .card-container img{
+        max-width: 100%; 
+        height: auto;    
+        display: block;
+    }
+
+  }
 .bold{
     color:hsl(30, 10%, 34%);
     font-weight:600;
